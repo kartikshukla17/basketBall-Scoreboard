@@ -1,28 +1,32 @@
-<html>
-    <head>
-        <link rel="stylesheet" href="index.css">
-    </head>
-    <body>
-        <div class="container">
-            <div class="score-section">
-                <div class="text">HOME</div>
-                <div class="box" id="scoreTextHome">0</div>
-                <div class="buttons">
-                    <button class="button" onclick="singleIncrementScoreHome()">+1</button>
-                    <button class="button" onclick="doubleIncrementScoreHome()" >+2</button>
-                    <button class="button" onclick="tripleIncrementScoreHome()" >+3</button>
-                </div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scoreboard</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="score-section">
+            <div class="text">HOME</div>
+            <div class="box" id="scoreTextHome">0</div>
+            <div class="buttons">
+                <button class="button" onclick="singleIncrementScoreHome()">+1</button>
+                <button class="button" onclick="doubleIncrementScoreHome()" >+2</button>
+                <button class="button" onclick="tripleIncrementScoreHome()" >+3</button>
             </div>
-            <div class="score-section">
-                <div class="text">GUEST</div>
-                <div class="box" id="scoreTextGuest">0</div>
-                <div class="buttons">
-                    <button class="button" onclick="singleIncrementScoreGuest()">+1</button>
-                    <button class="button" onclick="doubleIncrementScoreGuest()" >+2</button>
-                    <button class="button" onclick="tripleIncrementScoreGuest()" >+3</button>
-                </div>
+        </div>
+        <div class="score-section">
+            <div class="text">GUEST</div>
+            <div class="box" id="scoreTextGuest">0</div>
+            <div class="buttons">
+                <button class="button" onclick="singleIncrementScoreGuest()">+1</button>
+                <button class="button" onclick="doubleIncrementScoreGuest()" >+2</button>
+                <button class="button" onclick="tripleIncrementScoreGuest()" >+3</button>
             </div>
+        </div>
     </div>
-        <script src="index.js"></script>
-    </body>
+    <script src="index.js"></script>
+</body>
 </html>
